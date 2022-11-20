@@ -100,3 +100,8 @@ kubectl delete jobs/ds-job
 ```
 
 In practice, you often do want your jobs to disappear after some time. To do this set the 'time-to-live' using `ttl:` in the manifest. Read more [here](https://kubernetes.io/docs/concepts/workloads/controllers/ttlafterfinished/).
+
+
+# Further reading
+
+* Once you get used to it, the kubernetes documentation is excellent. This is the [page on jobs](https://kubernetes.io/docs/concepts/workloads/controllers/job/).
