@@ -8,7 +8,7 @@ They will form the base for most of the other examples in this repo.
 
 Examples include: a data science `fit` pipeline; a data science batch `predict` pipeline; an operational research/combinatorial optimisation pipeline.
 
-Jobs normally take a while to spin up, so a common example where you wouldn't want to use a job is a simple data science `predict` function (commonly referred to as model serving). This would normally be put directly into an API for easy access and quick response.
+Jobs normally take a while to spin up, so a common example where you wouldn't want to use a job is model serving: where users will be fetching `predict` results via an API with just a few new examples. This needs to run in second(s) rather than minutes so the standard is just to run everything in the API.
 
 ### Advantages
 
