@@ -1,0 +1,12 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: ds-job
+spec:
+  template:
+    spec:
+      containers:
+      - name: ds-job
+        image: ds-job
+        imagePullPolicy: Never
+      restartPolicy: Never
