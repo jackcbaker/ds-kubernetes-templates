@@ -22,7 +22,7 @@ Docker desktop requires a [license](https://www.docker.com/pricing/) in a large 
 For those who use Linux, I find just installing the docker engine and then `minikube` to work well for me, and is a lighter weight, open source alternative. This is not possible in MacOS though. If you go down this route don't forget to get docker to use the [`minikube` cluster when building](https://minikube.sigs.k8s.io/docs/handbook/pushing/#1-pushing-directly-to-the-in-cluster-docker-daemon-docker-env). Else `minikube` won't find any of your docker images.
 
 
-## The templates
+# The templates
 
 1. **[Job template](https://github.com/jackcbaker/ds-kubernetes-templates/tree/main/1-job)**
 
