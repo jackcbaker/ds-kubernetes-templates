@@ -26,7 +26,7 @@ For those who use Linux, I find just installing the docker engine and then `mini
 
 1. **[Job template](https://github.com/jackcbaker/ds-kubernetes-templates/tree/main/1-job)**
 
-Jobs are the basic building plot of most of these templates. This template gets you building and debugging a data science job.
+Jobs are the basic building block of most of these templates. This template gets you building and debugging a data science job.
 
 2. **[CronJob template](https://github.com/jackcbaker/ds-kubernetes-templates/tree/main/2-cronJob)**
 
